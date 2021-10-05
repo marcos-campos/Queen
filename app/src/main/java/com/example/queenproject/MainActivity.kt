@@ -3,6 +3,7 @@ package com.example.queenproject
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.queenproject.ui.main.MainFragment
+import java.lang.reflect.Array.newInstance
 
 class MainActivity : AppCompatActivity() {
 

@@ -6,6 +6,6 @@ import retrofit2.http.GET
 interface EndPoints {
 
     @GET("all")
-    suspend fun chamarQueen() : List<QueenItem>
+    open fun chamarQueen() : List<QueenItem>
 
 }
